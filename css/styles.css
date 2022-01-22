@@ -35,7 +35,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    outline: 1px solid red;
 }
 
 /* --------------------------------HEADER------------------------------- */
@@ -44,7 +44,7 @@ img {
     background-color: var(--item-text-color);
     padding-top: 24px;
     padding-bottom: 25px;
-    outline: 2px solid black;
+    outline: 1px solid black;
 }
 
 .header-container {
