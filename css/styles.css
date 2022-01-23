@@ -44,7 +44,7 @@ img {
     background-color: var(--item-text-color);
     padding-top: 24px;
     padding-bottom: 25px;
-    outline: 1px solid black;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-container {
@@ -191,7 +191,7 @@ margin-left: 50px;
     background: var(--hero-color);
     text-align: center;
      padding-top: 200px;
-     padding-bottom: 280px; 
+     padding-bottom: 200px; 
 }
 
 
@@ -309,12 +309,15 @@ margin-left: 50px;
 
 
   /* ------------------------------------WORK */
-
-.work-container {
+.work{
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: #F5F4FA;
-     
+}
+
+.work-group {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -352,8 +355,7 @@ margin-left: 50px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 30px;
-    padding-bottom: 10px;
+
 }
 
 .work-text{
@@ -362,7 +364,8 @@ margin-left: 50px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-bottom: 30px;
+    padding-top: 10px;
+   
 }
 
 
